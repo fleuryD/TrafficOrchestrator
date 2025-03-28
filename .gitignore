@@ -1,4 +1,4 @@
 *.o
-XXXorchestrator
-XXXorchestrator.exe
+orchestrator
+orchestrator.exe
 /obj
