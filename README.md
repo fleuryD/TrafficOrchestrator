@@ -16,6 +16,8 @@ A road traffic simulator currently in development, with the ability to create ro
 - When a car reaches the end of a road, it moves to a random road connected to the node.
   - If no road is available, the car disappears. (The node is an **exit point**)
 
+![Screenshot](./assets/screenshot-03.png)
+
 ## Todo
 
 - Allow cars to change lanes on a road
@@ -32,8 +34,6 @@ A road traffic simulator currently in development, with the ability to create ro
 - Ability to insert a node in the middle of a road + better bridge management
 - Adjust UI size
 
-![Screenshot](./assets/screenshot-02.png)
-
 ## Notes
 
 - A road can have multiple lanes but only one direction, so to create a 2x3 lane road, you need to create two roads in opposite directions (or check the "**_create both directions_**" option).
@@ -45,7 +45,7 @@ A road traffic simulator currently in development, with the ability to create ro
 - **C++**
 - **Raylib**: A simple and easy-to-use library to create 2D games.
 
-![Screenshot](./assets/screenshot-03.png)
+![Screenshot](./assets/screenshot-02.png)
 
 ## Usage
 
@@ -53,12 +53,12 @@ You can either:
 
 - ### Download the precompiled binaries (Windows and Linux)
 
-  - Download the precompiled binaries along with map files in a compressed archive located in the `assets` folder.
+  - Download the last version on [github.com/fleuryD/TrafficOrchestrator/releases](https://github.com/fleuryD/TrafficOrchestrator/releases)
 
 - ### or Clone the repository and compile the project
 
   ```bash
-  git clone https://github.com/fleuryD/traffic-orchestrator.git
+  git clone https://github.com/fleuryD/TrafficOrchestrator.git
   cd traffic-orchestrator
   make
 
