@@ -67,7 +67,7 @@ You can either:
   make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=STATIC
 
 
-  cd ..
+  cd ../..
   make
 
   ./traffic-orchestrator       # for linux
