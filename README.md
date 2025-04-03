@@ -60,16 +60,16 @@ You can either:
   ```bash
   git clone https://github.com/fleuryD/TrafficOrchestrator.git
   cd traffic-orchestrator
+
+
+  git clone https://github.com/raysan5/raylib.git
+  cd raylib/src
+  make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=STATIC
+
+
+  cd ..
   make
 
   ./traffic-orchestrator       # for linux
   .\traffic-orchestrator.exe   # for windows
-  ```
-
-  If Raylib is not installed or not compiled, run the following commands:
-
-  ```bash
-  git clone https://github.com/raysan5/raylib.git
-  cd raylib/src
-  make PLATFORM=PLATFORM_DESKTOP RAYLIB_LIBTYPE=STATIC
   ```
